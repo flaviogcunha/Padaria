@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    
+}
+header{
+    display: flex;
+    background-color: #FFDFC4;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+#titulo{
+    flex-direction: column;
+    margin-left: 60px;
+    
+}
+li{
+    display: inline-block;
+    margin: 25px;
+    font-size: 20px;
+}
+#loc{
+    height: 35px;
+    width: 35px;
+    margin-right: 40px;
+}
+#titlee{
+    font-size: 25px;
+    line-height: 15px;
+    color: goldenrod;
+    font-family: "Pacifico", cursive;
+}
+#links{
+    color: goldenrod;
+}
+#links:hover{
+    color: black;
+    transition: 0.3s all;
+    
+}
+#capa{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+
+}
+.linhaa{
+    height: 5px;
+    width: 50%;
+    background-color: goldenrod;
+    border: none;
+    
+    
+}
