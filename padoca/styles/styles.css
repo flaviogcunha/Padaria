@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 header {
@@ -42,6 +43,11 @@ a{
     color: goldenrod;
     padding-bottom: 5px;
 }
+a:hover{
+    color: black;
+    transition: 0.4s all;
+
+}
 #localizador{
     height: 30px;
     width: 30px;
@@ -51,4 +57,24 @@ a{
     width: 100%;
     height: 600px;
     object-fit: cover;
+}
+#segtitulo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+}
+p{
+
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: left;
+}
+
+#linhaum{
+    height: 7px;
+    width: 50%;
+    background-color: goldenrod;
+    margin-top: 40px
 }
