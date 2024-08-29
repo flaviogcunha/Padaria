@@ -93,3 +93,9 @@ li{
     border-bottom: 9px solid transparent;
     border-left: 9px solid black; 
 }
+#nos{
+    background-color:  gray;
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+}
