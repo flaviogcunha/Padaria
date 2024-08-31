@@ -94,6 +94,8 @@ li{
     border-left: 9px solid black; 
 }
 #nos{
+    display: flex;
+    flex-direction: row;
     background-color:  gray;
     margin-top: 20px;
     width: 100%;
